@@ -29,3 +29,6 @@ export const environment = {
     },
   },
 };
+
+// nuoc: https://script.google.com/macros/s/AKfycbxbSSnhONLb38YvQFtfkAHBkLMJowzRbyCMAkF78l8E41cYh7K8oKrs9oPAHQTR4lnM/exec
+// dien: https://script.google.com/macros/s/AKfycby-zQjxPp16p6rSME38XAC-LpJyp7cSjAdhY1Zu9twbFKoYICP6CTs1shWfQsSlxE8H/exec
