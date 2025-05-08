@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+ .gradient {
+  @apply bg-gradient-to-r from-primary to-primary-700;
+ }
+ .gradient-text {
+  @apply gradient bg-clip-text text-transparent;
+ }
+ .section {
+  @apply py-12 md:py-24;
+ }
+
+ .swiper-bullet {
+  @apply gradient !bg-gradient-to-r;
+ }
+}

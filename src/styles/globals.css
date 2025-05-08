@@ -1,0 +1,56 @@
+@import "tailwind.css";
+@import "collapse.css";
+* {
+  outline: none;
+}
+body {
+  font-family: "Montserrat";
+  color: #333333;
+}
+
+.swiper {
+  --swiper-navigation-color: rgba(0, 0, 0, 0.3);
+}
+
+.swipper-pagination .swiper-wrapper {
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: linear-gradient(to right, #782671, #9a2065);
+}
+
+.container {
+  max-width: 1168px;
+}
+
+/* custom scrollbar  */
+/* width */
+::-webkit-scrollbar {
+  height: 8px;
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(201, 201, 201);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a54698;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9b2165;
+}
+
+/* hidden scroll bar on mobile  */
+@media (max-width: 640px) {
+  ::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+    background: transparent;
+  }
+}

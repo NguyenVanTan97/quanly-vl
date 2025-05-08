@@ -1,0 +1,90 @@
+{
+  "about": {
+    "title": "Thông tin chúng tôi",
+    "welcome": "Chào mừng đến với ",
+    "content": "Chuỗi căn hộ tọa lạc trong tòa Landmark 81 là chuỗi căn hộ khách sạn cao cấp của Darlington Suite, có diện tích từ trên 50m2, layout studio từ 1 đến 2 phòng ngủ đảm bảo không gian cực kì rộng rãi thoáng mát, nội thất chuẩn Âu và thiết bị thông minh hiện đại được trang bị đầy đủ. Chúng tôi tin rằng bạn sẽ cảm thấy vô cùng tuyệt vời với phong cách và trải nghiệm tại đây."
+  },
+  "perNight": {
+    "title": "Mỗi đêm",
+    "content": "Tận hưởng các phòng cổ điển của chúng tôi với tất cả sự sang trọng và tiện nghi. Căn phòng có các tiện nghi cần thiết như TV màn hình phẳng 45 inch, Wi-Fi và 2 phòng tắm với phòng khách"
+  },
+  "priceList": {
+    "day": "Ngày",
+    "night": "Đêm"
+  },
+  "hourPrice": {
+    "title": "Giá hàng chờ",
+    "unit": "giờ"
+  },
+  "amenities": "Nâng cao kỳ nghỉ của bạn với hàng loạt các tiện nghi khách sạn của chúng tôi",
+  "luxury": "Khám phá mẫu mực của sự thoải mái và sang trọng với các dịch vụ khách sạn của chúng tôi",
+  "amelitieList": {
+    "mattress": {
+      "title": "NỆM CAO CẤP",
+      "desc": "Kích thước King/Queen chất lượng cao, tiêu chuẩn Châu Âu"
+    },
+    "wifi": {
+      "title": "WIFI & NETFLIX TỐC ĐỘ CAO",
+      "desc": "Chương trình chất lượng cao/ FPT Playbox"
+    },
+    "tv": {
+      "title": "TV 55INCH 4K HD",
+      "desc": "Khách hàng có thể sử dụng Wi-Fi miễn phí bất kì ở đâu trong khách sạn"
+    },
+    "bathtub": {
+      "title": "BỒN TẮM",
+      "desc": "Bồn tắm có chế độ massage"
+    },
+    "smartHome": {
+      "title": "NHÀ THÔNG MINH",
+      "desc": "Nhà thông minh điều khiển bằng giọng nói"
+    },
+    "breakfast": {
+      "title": "BỮA SÁNG",
+      "desc": "Bữa ăn với nhiều món ăn"
+    }
+  },
+  "luxuryGallery": {
+    "title": "Bể bơi vô cực",
+    "content": "đây là đoạn văn bản demo, không phải là văn bản thật, chúng tôi sẽ bổ sung văn bản này sau khi hoàn thành",
+    "footer": {
+      "f1": "Chỉ có 5 phòng trống",
+      "f2": "Bao gồm ăn sáng",
+      "f3": "Giá chưa bao gồm VAT & phí dịch vụ"
+    }
+  },
+  "steamGallery": {
+    "title": "Phòng xông hơi",
+    "content": "đây là đoạn văn bản demo, không phải là văn bản thật, chúng tôi sẽ bổ sung văn bản này sau khi hoàn thành",
+    "footer": {
+      "f1": "Chỉ có 5 phòng trống",
+      "f2": "Bao gồm ăn sáng",
+      "f3": "Giá chưa bao gồm VAT & phí dịch vụ"
+    }
+  },
+
+  "review": {
+    "title": "Mọi người đang nói gì",
+    "content": {
+      "item1": "Chỉ là một mẫu nhỏ lời chứng thực nhận được từ những người đã đến thăm",
+      "item2": "Darlington",
+      "item3": "trong 6 tháng qua."
+    },
+    "reviewItem": {
+      "content": "Căn phòng rộng rãi, đẹp và thoải mái. Các phòng tắm là tuyệt vời. Sàn hồ bơi là nơi tuyệt vời để ngắm hoàng hôn và mọi người đang xem - Anthony và Liz là những người chủ nhà đặc biệt. Rất khuyến khích.",
+      "footer": {
+        "reviewer": "Adam Levine",
+        "from": "Đánh giá từ booking.com"
+      }
+    }
+  },
+  "gallery": {
+    "title": "Thư viện ảnh",
+    "content": "35 phòng cổ điển được trang bị nội thất trang nhã và có máy lạnh, sẽ là lựa chọn hoàn hảo cho cả khách doanh nhân và khách du lịch …"
+  },
+  "location": {
+    "title": "ĐỊA ĐIỂM",
+    "title2": "Hãy đến đây",
+    "invest": "CÔNG TY TNHH đầu tư DARLINGTON"
+  }
+}

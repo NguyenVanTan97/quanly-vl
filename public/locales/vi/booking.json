@@ -1,0 +1,136 @@
+{
+  "labelTotalNights": "đêm",
+  "accomodationInfo": {
+    "title": "Thông tin lưu trú",
+    "checkIn": "Ngày nhận phòng",
+    "checkOut": "Ngày trả phòng",
+    "roomNumber": "Số phòng",
+    "kindOfRoom": "Loại phòng",
+    "guest": "Khách",
+    "radio": {
+      "labelHour": "Theo giờ",
+      "labelDay": "Theo ngày"
+    },
+    "placeholder": {
+      "chooseATime": "Chọn giờ",
+      "hour": "Giờ",
+      "chooseARoom": "Chọn phòng",
+      "room": "Phòng",
+      "roomFor": "Phòng 2 người",
+      "guests": "Khách người lớn và trẻ em"
+    }
+  },
+  "roomInfo": {
+    "title": "Thông tin phòng",
+    "info": {
+      "title": "Căn Hộ 1 Phòng Ngủ",
+      "content": "Tối đa: 2 người lớn, 1 trẻ em"
+    }
+  },
+  "customerInfo": {
+    "title": "Thông tin chi tiết của bạn",
+    "note": {
+      "note1": "Email xác nhận đặt phòng sẽ được gửi đến địa chỉ này",
+      "note2": "Để chúng tôi có thể liên hệ xác nhận phòng với bạn"
+    },
+    "warning": "Vui lòng điền thông tin bằng Tiếng Việt hoặc Tiếng Anh",
+    "label": {
+      "firstName": "Họ (tiếng Anh)",
+      "lastName": "Tên (tiếng Anh)",
+      "emailAddress": "Địa chỉ email",
+      "emailAgain": "Xác nhận địa chỉ email",
+      "region": "Vùng/quốc gia",
+      "numberPhone": "Điện thoại (ưu tiên số ĐTDĐ)"
+    }
+  },
+  "priceSummary": {
+    "title": "Tóm tắt giá",
+    "room": "Căn Hộ 1 Phòng Ngủ",
+    "tax": "10% Thuế GTGT",
+    "price": "Giá",
+    "note": "(cho 2 khách và 2 đêm nghỉ)",
+    "surcharge": "Không bao gồm phụ phí",
+    "deposit": "Đặt cọc đề phòng hư hại",
+    "depositNote": "Được hoàn trả toàn bộ"
+  },
+  "cancelationCost": {
+    "title": "Chi phí hủy là bao nhiêu?"
+  },
+  "FAQ": {
+    "title": "Câu hỏi thường gặp",
+    "content": "Nếu muốn biết thêm về chỗ nghỉ, bạn có thể xem các câu hỏi của khách",
+    "more": "Xem thêm câu hỏi"
+  },
+  "mobile": {
+    "FAQ": "Câu hỏi thường gặp",
+    "rule": "Quy tắc chung"
+  },
+  "request": {
+    "title": "Các Yêu Cầu Đặc Biệt",
+    "note": "Các yêu cầu đặc biệt không đảm bảo sẽ được đáp ứng – tuy nhiên, chỗ nghỉ sẽ cố gắng hết sức để thực hiện. Bạn luôn có thể gửi yêu cầu đặc biệt sau khi hoàn tất đặt phòng của mình!",
+    "card": {
+      "title": "Vui lòng ghi yêu cầu của bạn tại đây.",
+      "note": "(không bắt buộc)"
+    }
+  },
+  "estimatedCheckin": {
+    "title": "Thời gian đến của bạn",
+    "card": {
+      "content1": "Bạn có thể nhận chỗ nghỉ lúc 15:00",
+      "content2": "Lễ tân 24 giờ - Luôn có trợ giúp mỗi khi bạn cần!",
+      "note": "Thời gian theo múi giờ Việt Nam (GMT+7)",
+      "title": "Thêm thời gian đến dự kiến của bạn"
+    }
+  },
+  "generalRule": {
+    "title": "Quy tắc chung",
+    "item": {
+      "item1": {
+        "title": "Nhận phòng",
+        "desc": "Từ 14:00 giờ",
+        "desc1": "Khách được yêu cầu xuất trình giấy tờ tùy thân có ảnh và thẻ tín dụng lúc nhận phòng"
+      },
+      "item2": {
+        "title": "Trả phòng",
+        "desc": "Đến 12:00 giờ"
+      },
+      "item3": {
+        "title": "Hủy đặt phòng/ thanh toán",
+        "desc": "Các chính sách hủy và thanh toán trước có khác biệt dựa trên ời gian đặt phòng."
+      },
+      "item4": {
+        "title": "Đặt cọc đề phòng hư hại có thể hoàn lại",
+        "desc": "Yêu cầu VND 700000 tiền đặt cọc đề phòng hư hại khi đến nghỉ. Số tiền này sẽ được chỗ nghỉ thu bằng tiền mặt. Bạn sẽ được hoàn lại khi trả phòng. Tiền đặt cọc của bạn sẽ được hoàn lại toàn bộ bằng tiền mặt, nhưng cũng phụ thuộc vào mức hư hại mà bạn có thể gây ra tại chỗ nghỉ."
+      },
+      "item5": {
+        "title": "Trẻ em và giường",
+        "desc": "Chính sách trẻ em",
+        "desc1": "Trẻ em ở mọi lứa tuổi đều được chào đón.",
+        "desc2": "Để xem thông tin về giá và phòng trống chính xác, vui lòng thêm số lượng trẻ em trong nhóm của bạn và độ tuổi của chúng vào tìm kiếm của bạn.",
+        "desc3": "Chính sách nôi (cũi) và giường phụ",
+        "desc4": "Không có cũi hoặc giường phụ."
+      },
+      "item6": {
+        "title": "Độ tuổi nhận phòng",
+        "desc": "Không có yêu cầu về độ tuổi khi nhận phòng"
+      },
+      "item7": {
+        "title": "Thẻ được chấp nhận tại chỗ nghỉ này",
+        "desc": "Sherwood Residence chấp nhận các loại thẻ này và giữ quyền khóa một khoản tiền tạm thời trước khi bạn đến nhận phòng."
+      },
+      "item8": {
+        "title": "Tiệc tùng",
+        "desc": "Không cho phép tiệc tùng / sự kiện"
+      },
+      "item9": {
+        "title": "Vật nuôi",
+        "desc": "Vật nuôi không được phép."
+      },
+      "item10": {
+        "title": "Hút thuốc",
+        "desc": "Hút thuốc là không được phép."
+      }
+    }
+  },
+  "submit":"Hoàn tất đặt chỗ"
+}

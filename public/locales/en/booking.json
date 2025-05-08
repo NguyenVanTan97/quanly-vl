@@ -1,0 +1,136 @@
+{
+  "labelTotalNights": "nights",
+  "accomodationInfo": {
+    "title": "Accommodation information",
+    "checkIn": "Check-in date",
+    "checkOut": "Check-out date",
+    "roomNumber": "Room number",
+    "kindOfRoom": "Kind of room",
+    "guest": "Guest",
+    "radio": {
+      "labelHour": "By the hour",
+      "labelDay": "By date"
+    },
+    "placeholder": {
+      "chooseATime": "Choose a time",
+      "hour": "Hour",
+      "chooseARoom": "Choose a room",
+      "room": "Room",
+      "roomFor": "Room for 2 people",
+      "guests": "Big customers and children"
+    }
+  },
+  "roomInfo": {
+    "title": "Room information",
+    "info": {
+      "title": "1 Bedroom Apartment",
+      "content": "Maximum: 2 adults, 1 child"
+    }
+  },
+  "customerInfo": {
+    "title": "Your details",
+    "note": {
+      "note1": "Booking confirmation email will be sent to this address",
+      "note2": "So that we can contact you to confirm your room"
+    },
+    "warning": "Please fill in the information in Vietnamese or English",
+    "label": {
+      "firstName": "First name (English)",
+      "lastName": "Last name (English)",
+      "emailAddress": "Email address",
+      "emailAgain": "Verify email address",
+      "region": "Region/country",
+      "numberPhone": "Phone (preferably mobile number)"
+    }
+  },
+  "priceSummary": {
+    "title": "Price Summary",
+    "room": "1 Bedroom Apartment",
+    "tax": "10% VAT",
+    "price": "Price",
+    "note": "(for 2 guests and 2 nights stay)",
+    "surcharge": "No surcharge included",
+    "deposit": "Deposit for damage prevention",
+    "depositNote": "Full refund"
+  },
+  "cancelationCost": {
+    "title": "Cancellation costs?"
+  },
+  "FAQ": {
+    "title": "Frequently asked questions",
+    "content": "If you want to know more about the hotel, you can see guest inquiries",
+    "more": "View more questions"
+  },
+  "mobile": {
+    "FAQ": "Frequently asked questions",
+    "rule": "General rules"
+  },
+  "request": {
+    "title": "Special Requests",
+    "note": "Special requests are not guaranteed – however, the property will do its best to accommodate. You can always submit a special request after completing your reservation!",
+    "card": {
+      "title": "Please write your request here.",
+      "note": "(optional)"
+    }
+  },
+  "estimatedCheckin": {
+    "title": "Your arrival time",
+    "card": {
+      "content1": "You can check in at 15:00",
+      "content2": "24-hour front desk - Help is always there when you need it!",
+      "note": "Time in Vietnam time zone (GMT+7)",
+      "title": "Add your expected arrival time"
+    }
+  },
+  "generalRule": {
+    "title": "General rules",
+    "item": {
+      "item1": {
+        "title": "Check in",
+        "desc": "From 14:00 hours",
+        "desc1": "Guests are required to present a photo ID and credit card upon check-in"
+      },
+      "item2": {
+        "title": "Check out",
+        "desc": "Until 12:00 o'clock"
+      },
+      "item3": {
+        "title": "Cancellation of booking/payment",
+        "desc": "Cancellation and prepayment policies vary based on the time of booking."
+      },
+      "item4": {
+        "title": "Damage deposit is refundable",
+        "desc": "VND 700000 deposit required for damage upon arrival. This amount will be collected by the property in cash. You will be refunded upon check-out. Your deposit will be fully refunded in cash, but also subject to the amount of damage you may have caused at the property."
+      },
+      "item5": {
+        "title": "Children and beds",
+        "desc": "Children Policy",
+        "desc1": "Children of all ages are welcome.",
+        "desc2": "To see accurate rates and availability, please add the number of children in your group and their ages to your search.",
+        "desc3": "Crib (crib) and extra bed policy",
+        "desc4": "No cots or extra beds."
+      },
+      "item6": {
+        "title": "Check-in age",
+        "desc": "There is no age requirement at check-in"
+      },
+      "item7": {
+        "title": "Cards are accepted at this property",
+        "desc": "Sherwood Residence accepts these cards and reserves the right to temporarily hold an amount prior to arrival."
+      },
+      "item8": {
+        "title": "Party",
+        "desc": "No parties/events allowed"
+      },
+      "item9": {
+        "title": "Pet",
+        "desc": "VPets are not allowed."
+      },
+      "item10": {
+        "title": "Smoke",
+        "desc": "Smoking is not allowed."
+      }
+    }
+  },
+  "submit":"Complete"
+}

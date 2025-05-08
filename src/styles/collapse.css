@@ -1,0 +1,35 @@
+.collapse-box {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.collapse-header {
+  display: block;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: left;
+}
+
+.collapse-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-in-out;
+  background-color: #fff;
+  border-top: none;
+  padding: 0 10px;
+}
+
+.collapse-checkbox {
+  display: none;
+}
+.collapse-icon {
+  transition: transform 0.4s ease-in-out;
+}
+.collapse-checkbox:checked ~ .collapse-content {
+  max-height: 700px;
+}
+.collapse-checkbox:checked ~ .collapse-icon {
+  transform: rotate(90deg);
+ 
+}

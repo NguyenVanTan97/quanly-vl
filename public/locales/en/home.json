@@ -1,0 +1,89 @@
+{
+ "about": {
+  "title": "ABOUT US",
+  "welcome": "Welcome To",
+  "content": "The chain of apartments located in Landmark 81 building is a chain of high-class hotel apartments Darlington Suite, with an area of ​​​​over 50m2, studio layout from 1 to 2 bedrooms to ensure extremely spacious and airy space, European standard furniture. . and fully equipped modern smart devices. We believe you will feel great with the style and experience here."
+ },
+ "perNight": {
+  "title": "PER NIGHTS",
+  "content": "Enjoy Our Classic Suites With All The Elegancy And Comfort That Its Interior Has… It Features Such Essentials As A Flat-Screen 45” TV, WiFi And 2 Bathrooms With A Living Room"
+ },
+ "priceList": {
+  "day": "DAY",
+  "night": "NIGHTS"
+ },
+ "hourPrice": {
+  "title": "HOURLY PRICE",
+  "unit": "hours"
+ },
+ "amenities": "Enhance your stay with our diverse range of hotel amenities",
+ "luxury": "Discover the epitome of comfort and luxury with our hotel services",
+ "amelitieList": {
+  "mattress": {
+   "title": "HIGH-QUALITY MATTRESS",
+   "desc": "High-quality King/Queen size, with European Standard"
+  },
+  "wifi": {
+   "title": "HIGH-SPEED WIFI & NETFLIX",
+   "desc": "High Quality show/ FPT Playbox"
+  },
+  "tv": {
+   "title": "TV 55INCH 4K HD",
+   "desc": "Our guests can use Wi-Fi free throughout the hotel territory"
+  },
+  "bathtub": {
+   "title": "BATHTUB",
+   "desc": "Bathtub with massage mode"
+  },
+  "smartHome": {
+   "title": "SMART-HOME",
+   "desc": "Smart-home with voice control"
+  },
+  "breakfast": {
+   "title": "BREAK-FAST",
+   "desc": "Meal with a variety of dishes"
+  }
+ },
+ "luxuryGallery": {
+  "title": "Infinity pool",
+  "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper",
+  "footer": {
+   "f1": "Only 5 rooms are available",
+   "f2": "Breakfast included",
+   "f3": "Price does not include VAT & services fee"
+  }
+ },
+ "steamGallery": {
+  "title": "Steam room",
+  "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper",
+  "footer": {
+   "f1": "Only 5 rooms are available",
+   "f2": "Breakfast included",
+   "f3": "Price does not include VAT & services fee"
+  }
+ },
+ "review": {
+  "title": "What People are Saying",
+  "content": {
+   "item1": "Just a small sample of testimonials received from people who visited",
+   "item2": "Darlington",
+   "item3": "during the last 6 months."
+  },
+  "reviewItem": {
+   "content": "The room was spacious, beautiful and comfortable. The bathrooms were wonderful. The pool deck was great for sunset and people watching - Anthony and Liz were exceptional hosts. Highly recommended.",
+   "footer": {
+    "reviewer": "Adam Levine",
+    "from": "Review from booking.com"
+   }
+  }
+ },
+ "gallery": {
+  "title": "Gallery our Hotel",
+  "content": "35 elegantly furnished and air conditioned classic rooms, which will be a perfect pick both for business and leisure travelers …"
+ },
+ "location": {
+  "title": "OUR LOCATION",
+  "title2": "GETTING HERE",
+  "invest": "DARLINGTON investment LIMITED"
+ }
+}
