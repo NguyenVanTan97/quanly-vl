@@ -2,28 +2,31 @@ import { useMainContext, VatLieuEntity } from "@/context/main.context";
 import { BoLoc } from "./boLoc";
 import { shareService } from "@/shared/services/share.service";
 import ThoiGianTiepNhan from "../ThoiGianTiepNhan";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export function TableVatLieu() {
   const { vatLieus } = useMainContext();
 
   const itemsPerPage = 10; // Số hàng mỗi trang
-  const [currentPage, setCurrentPage] = useState(1);
-
-  // Tính toán dữ liệu hiển thị theo trang
-  const totalPages = Math.ceil(vatLieus.length / itemsPerPage);
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const currentData = vatLieus.slice(startIndex, startIndex + itemsPerPage);
+  const [currentPage, setCurrentPage] = useState<number>(1);
+  const [totalPages, setTotalPages] = useState<number>(0);
+  const [datas, setDatas] = useState<VatLieuEntity[]>([]);
 
   // Xử lý khi nhấn nút phân trang
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
   };
 
+  useEffect(() => {
+    setTotalPages(Math.ceil(vatLieus.length / itemsPerPage));
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    setDatas(vatLieus.slice(startIndex, startIndex + itemsPerPage));
+  }, [vatLieus]);
+
   return (
-    <div className="flex flex-col mt-20 mx-2 md:mx-20">
-      <BoLoc />
-      {currentData && (
+    <div className="flex flex-col mt-20 mx-2 md:mx-20 py-8">
+      <BoLoc onFind={setDatas} />
+      {datas.length > 0 && (
         <div>
           <table className="min-w-full border border-gray-300 ">
             <thead>
@@ -45,32 +48,33 @@ export function TableVatLieu() {
               </tr>
             </thead>
             <tbody>
-              {currentData.map((item) => (
-                <tr key={item.ten} className="hover:bg-gray-50">
-                  <td className="p-3 border-b border-r font-semibold">
-                    {item.ten}
-                  </td>
-                  <td className="p-3 border-b border-r font-semibold">
-                    {shareService.formatNumber(item.giaBan)}
-                  </td>
-                  <td className="p-3 border-b text-center md:border-r">
-                    {item.dvBan}
-                  </td>
+              {datas.length > 0 &&
+                datas.map((item) => (
+                  <tr key={item.ten} className="hover:bg-gray-50">
+                    <td className="p-3 border-b border-r font-semibold">
+                      {item.ten}
+                    </td>
+                    <td className="p-3 border-b border-r font-semibold">
+                      {shareService.formatNumber(item.giaBan)}
+                    </td>
+                    <td className="p-3 border-b text-center md:border-r">
+                      {item.dvBan}
+                    </td>
 
-                  <td className="p-3 border-b border-r hidden md:table-cell">
-                    {shareService.formatNumber(item.giaNhap)}
-                  </td>
-                  <td className="p-3 border-b border-r hidden md:table-cell">
-                    {item.dvNhap}
-                  </td>
-                  <td className="p-3 border-b border-r hidden md:table-cell">
-                    {item.soLuongNhap}
-                  </td>
-                  <td className="p-3 border-b  hidden md:table-cell">
-                    <ThoiGianTiepNhan value={item.ngayNhapKho} />
-                  </td>
-                </tr>
-              ))}
+                    <td className="p-3 border-b border-r hidden md:table-cell">
+                      {shareService.formatNumber(item.giaNhap)}
+                    </td>
+                    <td className="p-3 border-b border-r hidden md:table-cell">
+                      {item.dvNhap}
+                    </td>
+                    <td className="p-3 border-b border-r hidden md:table-cell">
+                      {item.soLuongNhap}
+                    </td>
+                    <td className="p-3 border-b  hidden md:table-cell">
+                      <ThoiGianTiepNhan value={item.ngayNhapKho} />
+                    </td>
+                  </tr>
+                ))}
             </tbody>
           </table>
 

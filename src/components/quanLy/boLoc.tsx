@@ -1,9 +1,10 @@
 import { useMainContext, VatLieuEntity } from "@/context/main.context";
 import { useEffect, useState } from "react";
 
-export function BoLoc() {
-  const { setVatLieus, vatLieus } = useMainContext();
-    const [isDien, setIsDien] = useState<boolean>(false);
+export function BoLoc({ onFind }: { onFind: (lst: VatLieuEntity[]) => void }) {
+  const { setVatLieus, vatLieus, getVatLieuDien, getVatLieuNuoc } =
+    useMainContext();
+  const [isDien, setIsDien] = useState<boolean>(false);
 
   //   useEffect(() => {
   //     googleSheetService
@@ -18,5 +19,21 @@ export function BoLoc() {
   //       });
   //   }, []);
 
-  return <div className="text-black flex">bo loc</div>;
+  return (
+    <div className="text-black flex">
+      <input
+        className="border border-gray-300 p-2"
+        type="text"
+        onBlur={(e) => {
+          if (!e.target.value) {
+            onFind(vatLieus);
+          }
+          const item = vatLieus.filter((item) =>
+            item.ten.toLowerCase().includes(e.target.value.trim().toLowerCase())
+          );
+          onFind(item);
+        }}
+      />
+    </div>
+  );
 }
