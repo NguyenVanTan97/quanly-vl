@@ -13,7 +13,7 @@ class GoogleSheetService {
       const row = res.data.split("\n")[i].split(",");
       const obj: { [key: string]: any } = {};
       for (let j = 0; j < titles.length; j++) {
-        obj[titles[j].replace("\r", "")] = row[j]?.replace("\r", "").replace('"', "");
+        obj[titles[j].replace("\r", "")] = row[j].replace("\r", "").replace('"', "");
       }
       data.push(obj);
     }

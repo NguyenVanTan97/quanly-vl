@@ -19,33 +19,33 @@ interface IQaEntity {
 }
 
 export function FAQ(props: { className?: string }) {
-  const { language } = useMainContext();
+  // const { language } = useMainContext();
   const [listQA, setListQA] = useState<IQaEntity[]>([]);
   const [openDialog, setOpenDialog] = useState<boolean>(false);
   const { t } = useTranslation("booking");
 
-  useEffect(() => {
-    googleSheetService
-      .readGoogleSheet(environment.excel.Url, environment.excel.range.QA)
-      .then((data) => {
-        let arr: Array<IQaEntity> = [];
+  // useEffect(() => {
+  //   googleSheetService
+  //     .readGoogleSheet(environment.excel.Url, environment.excel.range.QA)
+  //     .then((data) => {
+  //       let arr: Array<IQaEntity> = [];
 
-        if (language === "VN") {
-          arr = (data as Array<IQaEntity>).map((row) => ({
-            ...row,
-            answer: row.answerVN,
-            question: row.questionVN,
-          }));
-        } else {
-          arr = (data as Array<IQaEntity>).map((row) => ({
-            ...row,
-            answer: row.answerEN,
-            question: row.questionEN,
-          }));
-        }
-        setListQA(arr);
-      });
-  }, [language]);
+  //       if (language === "VN") {
+  //         arr = (data as Array<IQaEntity>).map((row) => ({
+  //           ...row,
+  //           answer: row.answerVN,
+  //           question: row.questionVN,
+  //         }));
+  //       } else {
+  //         arr = (data as Array<IQaEntity>).map((row) => ({
+  //           ...row,
+  //           answer: row.answerEN,
+  //           question: row.questionEN,
+  //         }));
+  //       }
+  //       setListQA(arr);
+  //     });
+  // }, [language]);
 
   return (
     <div className={props.className}>

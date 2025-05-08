@@ -5,7 +5,7 @@ import { useMainContext } from "@/context/main.context";
 import { NumberFormat } from "@/core/util/NumberFormat";
 
 export function CancelationCost() {
-  const { cancelationCost, unit } = useMainContext();
+  // const { cancelationCost, unit } = useMainContext();
   const { t } = useTranslation("booking");
   return (
     <div>
@@ -18,7 +18,7 @@ export function CancelationCost() {
         <div className="mt-1 flex justify-between">
           Từ 00:00 ngày 5 tháng 1
           <span className="font-semibold text-xs md:text-sm">
-            {NumberFormat.format(cancelationCost, unit)} {unit}
+            {/* {NumberFormat.format(cancelationCost, unit)} {unit} */}
           </span>
         </div>
       </BookingCard>

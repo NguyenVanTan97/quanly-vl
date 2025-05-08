@@ -13,38 +13,38 @@ interface TotalRoomPriceEntity {
 }
 
 export function PriceSummary(props: { className?: string }) {
-  const { hourPrices, roomPrices, depositAmount, unit } = useMainContext();
+  // const { hourPrices, roomPrices, depositAmount, unit } = useMainContext();
   const { entity } = useBookingContext();
   const [totalRoomPrice, setTotalRoomPrice] = useState<TotalRoomPriceEntity>();
   const { t } = useTranslation("booking");
 
-  useEffect(() => {
-    if (entity) {   
-      if (entity.rentalHours) {
-        const hourPrice = hourPrices.find(
-          (f) => parseInt(f.title) == entity.rentalHours
-        );
+  // useEffect(() => {
+  //   if (entity) {   
+  //     if (entity.rentalHours) {
+  //       const hourPrice = hourPrices.find(
+  //         (f) => parseInt(f.title) == entity.rentalHours
+  //       );
 
-        hourPrice &&
-          setTotalRoomPrice({
-            price: hourPrice.price,
-            GTGT: (hourPrice.price * 10) / 100,
-            totalPrice: hourPrice.price + (hourPrice.price * 10) / 100,
-          });
-      } else {
-        const roomPrice = roomPrices.find(
-          (f) => parseInt(f.day) == entity.totalNights
-        );
+  //       hourPrice &&
+  //         setTotalRoomPrice({
+  //           price: hourPrice.price,
+  //           GTGT: (hourPrice.price * 10) / 100,
+  //           totalPrice: hourPrice.price + (hourPrice.price * 10) / 100,
+  //         });
+  //     } else {
+  //       const roomPrice = roomPrices.find(
+  //         (f) => parseInt(f.day) == entity.totalNights
+  //       );
 
-        roomPrice &&
-          setTotalRoomPrice({
-            price: roomPrice.price,
-            GTGT: (roomPrice.price * 10) / 100,
-            totalPrice: roomPrice.price + (roomPrice.price * 10) / 100,
-          });
-      }
-    }
-  }, [entity, hourPrices, roomPrices]);
+  //       roomPrice &&
+  //         setTotalRoomPrice({
+  //           price: roomPrice.price,
+  //           GTGT: (roomPrice.price * 10) / 100,
+  //           totalPrice: roomPrice.price + (roomPrice.price * 10) / 100,
+  //         });
+  //     }
+  //   }
+  // }, [entity, hourPrices, roomPrices]);
 
   return (
     <div className={props.className}>
@@ -59,13 +59,13 @@ export function PriceSummary(props: { className?: string }) {
             <div className="flex  justify-between">
               <span>{t("priceSummary.room")} </span>
               <span className="font-medium">
-                {NumberFormat.format((totalRoomPrice?.price || 0), unit)} {unit}
+                {/* {NumberFormat.format((totalRoomPrice?.price || 0), unit)} {unit} */}
               </span>
             </div>
             <div className="mt-1 flex justify-between">
               <span>{t("priceSummary.tax")}</span>
               <span className="font-medium">
-                {NumberFormat.format((totalRoomPrice?.GTGT || 0), unit)} {unit}
+                {/* {NumberFormat.format((totalRoomPrice?.GTGT || 0), unit)} {unit} */}
               </span>
             </div>
           </div>
@@ -75,7 +75,7 @@ export function PriceSummary(props: { className?: string }) {
                 <p className="text-base md:text-xl font-bold">{t("priceSummary.price")}</p>
               </div>
               <span className="gradient-text text-base md:text-xl font-bold">
-                {NumberFormat.format((totalRoomPrice?.totalPrice || 0), unit)} {unit}
+                {/* {NumberFormat.format((totalRoomPrice?.totalPrice || 0), unit)} {unit} */}
               </span>
             </div>
             <p className="text-2xs md:text-xs">
@@ -92,7 +92,7 @@ export function PriceSummary(props: { className?: string }) {
           <div className="flex justify-between items-center">
             <span>{t("priceSummary.deposit")}</span>
             <span className="text-2xs md:text-xs font-semibold">
-              {NumberFormat.format(depositAmount, unit)} {unit}
+              {/* {NumberFormat.format(depositAmount, unit)} {unit} */}
             </span>
           </div>
         </div>
