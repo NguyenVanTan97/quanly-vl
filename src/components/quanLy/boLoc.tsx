@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 export function BoLoc() {
   const { setVatLieus, vatLieus } = useMainContext();
-  //   const [lst, setLst] = useState<VatLieuEntity[]>([]);
+    const [isDien, setIsDien] = useState<boolean>(false);
 
   //   useEffect(() => {
   //     googleSheetService
