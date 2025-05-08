@@ -1,8 +1,13 @@
+"use client";
+
 import { useMainContext, VatLieuEntity } from "@/context/main.context";
 import { BoLoc } from "./boLoc";
 import { shareService } from "@/shared/services/share.service";
 import ThoiGianTiepNhan from "../ThoiGianTiepNhan";
 import { useEffect, useState } from "react";
+import { Table } from "antd";
+
+
 
 export function TableVatLieu() {
   const { vatLieus } = useMainContext();
@@ -23,10 +28,46 @@ export function TableVatLieu() {
     setDatas(vatLieus.slice(startIndex, startIndex + itemsPerPage));
   }, [vatLieus]);
 
+  const dataSource = [
+    {
+      key: '1',
+      name: 'Mike',
+      age: 32,
+      address: '10 Downing Street',
+    },
+    {
+      key: '2',
+      name: 'John',
+      age: 42,
+      address: '10 Downing Street',
+    },
+  ];
+  
+  const columns = [
+    {
+      title: 'Name',
+      dataIndex: 'name',
+      key: 'name',
+    },
+    {
+      title: 'Age',
+      dataIndex: 'age',
+      key: 'age',
+    },
+    {
+      title: 'Address',
+      dataIndex: 'address',
+      key: 'address',
+    },
+  ];
+  
+ 
+
   return (
     <div className="flex flex-col mt-20 mx-2 md:mx-20 py-8">
       <BoLoc onFind={setDatas} />
-      {datas.length > 0 && (
+      <Table dataSource={dataSource} columns={columns} rowKey="ten" />;
+      {/* {datas.length > 0 && (
         <div>
           <table className="min-w-full border border-gray-300 ">
             <thead>
@@ -94,7 +135,7 @@ export function TableVatLieu() {
             ))}
           </div>
         </div>
-      )}
+      )} */}
     </div>
   );
 }
